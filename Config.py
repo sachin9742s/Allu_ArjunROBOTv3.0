@@ -5,7 +5,7 @@ from os import environ
 id_pattern = re.compile(r'^.\d+$')
 
 # Bot information
-SESSION = environ.get('SESSION', 'LuciferMoringstar_Robot')
+SESSION = environ.get('SESSION', 'Allu_ArjunROBOTv3.0')
 API_ID = int(environ['API_ID'])
 API_HASH = environ['API_HASH']
 BOT_TOKEN = environ['BOT_TOKEN']
@@ -35,7 +35,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Messages
 default_start_msg = """
-**Hi, I'm Auto Filter V3**
+**Hi, I'm Auto Filter v3.0**
 
 Here you can search files in Inline mode as well as PM, Use the below buttons to search files or send me the name of file to search.
 """
