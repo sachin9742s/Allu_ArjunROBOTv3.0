@@ -2,7 +2,7 @@ import logging
 from pyrogram import Client, emoji, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InlineQueryResultCachedDocument
 
-from LuciferMoringstar_Robot.Utils import get_search_results, is_subscribed
+from Allu_ArjunROBOTv3.0.Utils import get_search_results, is_subscribed
 from Config import CACHE_TIME, AUTH_USERS, AUTH_CHANNEL, CUSTOM_FILE_CAPTION, TUTORIAL
 
 logger = logging.getLogger(__name__)
@@ -89,13 +89,13 @@ async def answer(bot, query):
 
 def get_reply_markup(query):
     buttons = [[
-        InlineKeyboardButton('Support Group', url='https://t.me/KicchaRequest'),
-        InlineKeyboardButton('File Channel', url='https://t.me/GD_FILMCLUB')
+        InlineKeyboardButton('🗣️ Group', url='https://t.me/KicchaRequest'),
+        InlineKeyboardButton('Channel 💬', url='https://t.me/GD_FILMCLUB')
         ],[
         InlineKeyboardButton('🔍 Search again 🔎', switch_inline_query_current_chat=query)
         ],[
-        InlineKeyboardButton('Tv Series', url=f'https://t.me/TV_VIRISION'),
-        InlineKeyboardButton('Ott Movies', url=f'https://t.me/KR_ROCKERS_DVD_WEB_OTT_MOVIES')
+        InlineKeyboardButton('📺Tv Series', url=f'https://t.me/TV_VIRISION'),
+        InlineKeyboardButton('Ott Movies💻📱', url=f'https://t.me/KR_ROCKERS_DVD_WEB_OTT_MOVIES')
         ]]
     return InlineKeyboardMarkup(buttons)
 
