@@ -2,7 +2,7 @@ import logging
 from pyrogram import Client, emoji, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InlineQueryResultCachedDocument
 
-from Allu_ArjunROBOTv3.0.Utils import get_search_results, is_subscribed
+from Allu_ArjunROBOTv3.Utils import get_search_results, is_subscribed
 from Config import CACHE_TIME, AUTH_USERS, AUTH_CHANNEL, CUSTOM_FILE_CAPTION, TUTORIAL
 
 logger = logging.getLogger(__name__)
