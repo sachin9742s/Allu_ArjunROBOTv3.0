@@ -4,10 +4,10 @@ from pyrogram import Client, filters
 from pyrogram import StopPropagation
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from Config import START_MSG, CHANNELS, ADMINS, AUTH_CHANNEL, CUSTOM_FILE_CAPTION, TUTORIAL, BROADCAST_CHANNEL, DB_URL, SESSION, ADMIN_ID    
-from Allu_ArjunROBOTv3.0.Utils import Media, get_file_details 
-from Allu_ArjunROBOTv3.0.Broadcast import broadcast
-from Allu_ArjunROBOTv3.0 import ABOUT
-from Allu_ArjunROBOTv3.0.Channel import handle_user_status
+from Allu_ArjunROBOTv3.Utils import Media, get_file_details 
+from Allu_ArjunROBOTv3.Broadcast import broadcast
+from Allu_ArjunROBOTv3 import ABOUT
+from Allu_ArjunROBOTv3.Channel import handle_user_status
 from Database import Database
 from pyrogram.errors import UserNotParticipant
 logger = logging.getLogger(__name__)
