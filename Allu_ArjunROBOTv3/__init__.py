@@ -11,11 +11,6 @@ from .Channel import (
 )
 
 HELP = """
-○  it's Note Complicated...🤓
-
-○  Search using inline mode
-This methord works on any chat, Just type @Allu_ArjunROBOT and then leave a space and search any movie you want...
-
 ○ Available Commands
      
  Basic Commads
@@ -43,15 +38,10 @@ Bot Owner Only
 """
 
 ABOUT = """
-➥ Name :  [Allu Arjun RoBot](https://t.me/Allu_ArjunROBOT)
+➥ Name : Auto Filter With IMDB
     
-➥ Creator : [Sachin S](https://t.me/sachin_official_admin)
-
+➥ Creator : [Sachin S](t.me/sachin_official_admin)
 ➥ Language : Python3
-
 ➥ Library : Pyrogram Asyncio 1.13.0
-
-➥ Request Group : [Kiccha Request](https://t.me/KicchaRequest)
-
-➥ Movie Channel :  [KICCHA REQUEST Channel](https://t.me/GD_FILMCLUB)
+➥ Source Code : [Click Me](https://github.com/sachin9742s/Allu_ArjunROBOTv3.0)
 """
