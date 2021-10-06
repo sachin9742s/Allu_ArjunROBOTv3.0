@@ -4,8 +4,8 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQ
 from pyrogram import Client, filters
 import re
 from pyrogram.errors import UserNotParticipant
-from Allu_ArjunROBOTv3.0 import get_filter_results, get_file_details, is_subscribed, get_poster
-from Allu_ArjunROBOTv3.0 import RATING, GENRES, HELP, ABOUT
+from Allu_ArjunROBOTv3 import get_filter_results, get_file_details, is_subscribed, get_poster
+from Allu_ArjunROBOTv3 import RATING, GENRES, HELP, ABOUT
 import random
 BUTTONS = {}
 BOT = {}
